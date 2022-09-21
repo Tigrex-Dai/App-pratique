@@ -39,4 +39,10 @@ path = Path(Path.cwd())
 for i in path.glob("*.xls*"):
     dflist.append(pd.read_excel(i, sheet_name=None))
 
+
+temp1 = dflist[1]['Feuil1']
+temp2 = dflist[1]['Feuil2']
+del dflist[1]
+dflist[1] = temp1
+dflist.append(temp2)
 print(dflist[1])
