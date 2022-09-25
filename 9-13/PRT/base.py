@@ -56,8 +56,9 @@ for i in path.glob("*.xls*"):
 # print(type(temp.loc[:, 'fname'][0]))
 print(type(dflist[0].loc[:, 'year'][0]))
 for h in dflist:
-  # print(h)
+  print(h.loc[:, 'fname'][0])
   if h.loc[:, 'fname'][0].startswith('prt'):
+    #print(h.loc[:, 'fname'][0].startswith('prt'))
     if h.loc[:, 'fname'][0].startswith('prt-k'):
       h.loc[:, 'type'] = 'PRT-K'
       h.loc[:, 'year'] = '2020'
@@ -72,11 +73,12 @@ for h in dflist:
       #print(h.loc[:, 'fname'][0].find(str(j)))
       if h.loc[:, 'fname'][0].find(str(j)) != -1:
         h.loc[:, 'year'] = str(j)
-        print('j:', j)
-    if h.loc[:, 'fname'][0].find('prts') or h.loc[:, 'fname'][0].find('prt-s'):
+        #print('j:', j)
+    if h.loc[:, 'fname'][0].find('prts')+h.loc[:, 'fname'][0].find('prt-s')!=-2:
       h.loc[:, 'type'] = 'PRT-S'
     else:
       h.loc[:, 'type'] = 'PRT-K'
+  #print(h.loc[:, 'type'][0])
 
-strtest = 'projects'
-print(strtest.startswith('prt-s'))
+# strtest = 'projects'
+# print(strtest.startswith('prt'))
