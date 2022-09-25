@@ -3,54 +3,16 @@
 import pandas as pd
 import os
 from pathlib import Path
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
 
 # df = pd.read_excel('./resultat-prts-2014.xls')
 dflist = []
 
-# 文件夹中的文件计数函数
-def file_count(local_path, type_dict):
-    global all_file_num  # 声明全局变量
-    file_list = os.listdir(local_path)  # 列出本地文件夹第一层目录的所有文件和目录
-    for file_name in file_list:
-        if os.path.isdir(os.path.join(local_path, file_name)):  # 判断是文件还是目录，是目录为真
-            type_dict.setdefault("文件夹", 0)  # 如果字典key不存在，则添加并设置为初始值
-            type_dict["文件夹"] += 1
-            p_local_path = os.path.join(local_path, file_name)  # 拼接本地第一层子目录，递归时进入下一层
-            file_count(p_local_path, type_dict)
-        else:
-            ext = os.path.splitext(file_name)[1]  # 获取到文件的后缀
-            type_dict.setdefault(ext, 0)  # 如果字典key不存在，则添加并设置为初始值
-            type_dict[ext] += 1
-            all_file_num += 1  # 计算总文件数量
-    return all_file_num
-
-# if __name__ == '__main__':
-#     local_path = './'  # 文件夹的路径
-#     type_dict = dict()  # 定义一个保存文件类型及数量的空字典
-#     all_file_num = 0  # 计算本地总文件数
-#     file_count = file_count(local_path, type_dict)  # 运行函数,power by luotao
-#
-#     # 打印文件类型以及数量
-#     for each_type in type_dict:
-#         print(f"文件类型为【{each_type}】的数量有：{type_dict[each_type]} 个")
-#     print(f"总文件数量为:{file_count}")
-
-# path = Path(Path.cwd())
-# for i in path.glob("*.xls*"):
-#     dflist.append(pd.read_excel(i, sheet_name=None))
-#
-#
-# temp1 = dflist[1]['Feuil1']
-# temp2 = dflist[1]['Feuil2']
-# del dflist[1]
-# dflist[1] = temp1
-# dflist.append(temp2)
-# print(dflist[1])
-
 path = Path(Path.cwd())
 tempdf = pd.DataFrame()
 for i in path.glob("*.xls*"):
-  #test = pd.concat(pd.read_excel(i, sheet_name=None, header=))
   test = pd.read_excel(i, sheet_name=None)
   keys = list(test.keys())
   #print(keys)
@@ -59,21 +21,11 @@ for i in path.glob("*.xls*"):
       tempdf = pd.concat([temp, pd.DataFrame(columns=['fname', 'type', 'year'])])
       tempdf.loc[:, 'fname'] = Path(i).stem.split('.')[0]
       dflist.append(tempdf)
-
-  # if len(keys)>1:
-  #     for g in range(0,len(keys)):
-  #         temps = test[g]
-  #         temps = pd.concat([temps, pd.DataFrame(columns=['fname', 'type', 'year'])])
-  #         temps.loc[:, 'fname'] = Path(i).stem.split('.')[0]
-  #         dflist.append(temps)
-  # else:
-  #   temp = pd.concat([test, pd.DataFrame(columns=['fname', 'type', 'year'])])
-  #   temp.loc[:, 'fname'] = Path(i).stem.split('.')[0]
-  #   dflist.append(temp)
 # print(type(temp.loc[:, 'fname'][0]))
 # print(type(dflist[0].loc[:, 'year'][0]))
+final = pd.DataFrame()
 for h in dflist:
-  print(h.loc[:, 'fname'][0])
+  #print(h.loc[:, 'fname'][0])
   if h.loc[:, 'fname'][0].startswith('prt'):
     #print(h.loc[:, 'fname'][0].startswith('prt'))
     if h.loc[:, 'fname'][0].startswith('prt-k'):
@@ -96,7 +48,30 @@ for h in dflist:
     else:
       h.loc[:, 'type'] = 'PRT-K'
   #print(h.loc[:, 'type'][0])
-  # for k in h.columns.tolist():
-  #     if k.find('Montant')+k.find('montant')!=-2:
-  #         h.rename(columns={k:'Montant'})
-print(dflist[0].columns)
+  for k in h.columns.tolist():
+      #print(type(k))
+      if k.find('Montant')+k.find('montant')+k.find('Autorisation')+k.find('autorisation')!=-4:
+          h.rename(columns={k:'Montant'}, inplace=True)
+  #h = h[~np.isnan(h).any(axis=1)]
+  if h.loc[:, 'year'][0] == '2021' and h.loc[:, 'type'][0] == 'PRT-S':
+      #print(h)
+      h.drop([13,14,15],inplace=True)
+      #print(h.loc[10,'Montant'])
+      h.loc[10, 'Montant'] = 838426
+      h.loc[11, 'Montant'] = 324700
+      h.loc[12, 'Montant'] = 224389
+#print(dflist[0].columns)
+  # print(h.columns)
+  final = pd.concat([final,h[['year','type','Montant']]])
+  final['year'] = final['year'].astype('int')
+final.to_csv('./PRT.csv')
+
+final2 = final.groupby(by='year').agg({'Montant':'sum'})
+final2.plot(
+    marker="o",
+    linestyle="dashed",
+    title=" Montant Accordé entre 2012 et 2020",
+    figsize=(8, 6),
+    fontsize=16,
+    xlim=(2013, 2021)
+)
