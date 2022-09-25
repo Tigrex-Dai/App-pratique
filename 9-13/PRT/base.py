@@ -35,14 +35,48 @@ def file_count(local_path, type_dict):
 #         print(f"文件类型为【{each_type}】的数量有：{type_dict[each_type]} 个")
 #     print(f"总文件数量为:{file_count}")
 
+# path = Path(Path.cwd())
+# for i in path.glob("*.xls*"):
+#     dflist.append(pd.read_excel(i, sheet_name=None))
+#
+#
+# temp1 = dflist[1]['Feuil1']
+# temp2 = dflist[1]['Feuil2']
+# del dflist[1]
+# dflist[1] = temp1
+# dflist.append(temp2)
+# print(dflist[1])
+
 path = Path(Path.cwd())
 for i in path.glob("*.xls*"):
-    dflist.append(pd.read_excel(i, sheet_name=None))
+  test = pd.concat(pd.read_excel(i, sheet_name=None, header=None))
+  temp = pd.concat([test, pd.DataFrame(columns=['fname', 'type', 'year'])])
+  temp.loc[:, 'fname'] = Path(i).stem.split('.')[0]
+  dflist.append(temp)
+# print(type(temp.loc[:, 'fname'][0]))
+print(type(dflist[0].loc[:, 'year'][0]))
+for h in dflist:
+  # print(h)
+  if h.loc[:, 'fname'][0].startswith('prt'):
+    if h.loc[:, 'fname'][0].startswith('prt-k'):
+      h.loc[:, 'type'] = 'PRT-K'
+      h.loc[:, 'year'] = '2020'
+    else:
+      h.loc[:, 'type'] = 'PRT-S'
+      if h.loc[:, 'fname'][0].startswith('prts_20'):
+        h.loc[:, 'year'] = '2020'
+      else:
+        h.loc[:, 'year'] = '2021'
+  else:
+    for j in range(2012, 2020):
+      #print(h.loc[:, 'fname'][0].find(str(j)))
+      if h.loc[:, 'fname'][0].find(str(j)) != -1:
+        h.loc[:, 'year'] = str(j)
+        print('j:', j)
+    if h.loc[:, 'fname'][0].find('prts') or h.loc[:, 'fname'][0].find('prt-s'):
+      h.loc[:, 'type'] = 'PRT-S'
+    else:
+      h.loc[:, 'type'] = 'PRT-K'
 
-
-temp1 = dflist[1]['Feuil1']
-temp2 = dflist[1]['Feuil2']
-del dflist[1]
-dflist[1] = temp1
-dflist.append(temp2)
-print(dflist[1])
+strtest = 'projects'
+print(strtest.startswith('prt-s'))
