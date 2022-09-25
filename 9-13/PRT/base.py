@@ -48,13 +48,30 @@ def file_count(local_path, type_dict):
 # print(dflist[1])
 
 path = Path(Path.cwd())
+tempdf = pd.DataFrame()
 for i in path.glob("*.xls*"):
-  test = pd.concat(pd.read_excel(i, sheet_name=None, header=None))
-  temp = pd.concat([test, pd.DataFrame(columns=['fname', 'type', 'year'])])
-  temp.loc[:, 'fname'] = Path(i).stem.split('.')[0]
-  dflist.append(temp)
+  #test = pd.concat(pd.read_excel(i, sheet_name=None, header=))
+  test = pd.read_excel(i, sheet_name=None)
+  keys = list(test.keys())
+  #print(keys)
+  for g in keys:
+      temp = test[g]
+      tempdf = pd.concat([temp, pd.DataFrame(columns=['fname', 'type', 'year'])])
+      tempdf.loc[:, 'fname'] = Path(i).stem.split('.')[0]
+      dflist.append(tempdf)
+
+  # if len(keys)>1:
+  #     for g in range(0,len(keys)):
+  #         temps = test[g]
+  #         temps = pd.concat([temps, pd.DataFrame(columns=['fname', 'type', 'year'])])
+  #         temps.loc[:, 'fname'] = Path(i).stem.split('.')[0]
+  #         dflist.append(temps)
+  # else:
+  #   temp = pd.concat([test, pd.DataFrame(columns=['fname', 'type', 'year'])])
+  #   temp.loc[:, 'fname'] = Path(i).stem.split('.')[0]
+  #   dflist.append(temp)
 # print(type(temp.loc[:, 'fname'][0]))
-print(type(dflist[0].loc[:, 'year'][0]))
+# print(type(dflist[0].loc[:, 'year'][0]))
 for h in dflist:
   print(h.loc[:, 'fname'][0])
   if h.loc[:, 'fname'][0].startswith('prt'):
@@ -79,6 +96,7 @@ for h in dflist:
     else:
       h.loc[:, 'type'] = 'PRT-K'
   #print(h.loc[:, 'type'][0])
-
-# strtest = 'projects'
-# print(strtest.startswith('prt'))
+  # for k in h.columns.tolist():
+  #     if k.find('Montant')+k.find('montant')!=-2:
+  #         h.rename(columns={k:'Montant'})
+print(dflist[0].columns)
