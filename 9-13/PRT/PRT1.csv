@@ -1,0 +1,179 @@
+,Finess,Nom de l'établissement,NomInvestigateur,PrénomInvestigateur,TitreProjet,NuméroProjet,Acronyme,MontantAccordé,Année,Type,Projet
+0,130786049.0,APHM,BARTOLOMEI,Fabrice,Interprétation des signaux électrophysiologiques en épilepsie basée sur un cerveau virtuel,13-017,VIBRATIONS,166183.68,2013,S,PRT
+1,540002078.0,CHU DE NANCY,BENETOS,Athanase,Télomères courts chez les patients à haut risque cardiovasculaire : simple marqueur ou déterminant majeur du vieillissement artériel accéléré,13-015,TELARTA,490011.6,2013,S,PRT
+2,380780080.0,CHU GRENOBLE,BENHAMOU,Pierre-Yves,ISLET CHIP: Contrôle de Qualité d’Îlots pour la Greffe,13-006,ISLET CHIP,171600.14560000002,2013,S,PRT
+3,750110025.0,CHNO DES QUINZE-VINGT PARIS,BORDERIE,Vincent,Microscopie tridimensionnelle des tissus oculaires par OCT plein champ: applications à la greffe de tissus et cellules au cours des pathologies opthalmologiques,13-007,MicroEye,306550.4,2013,S,PRT
+4,750712184.0,ASSISTANCE PUBLIQUE AP-HP,BOSC,Romain,Développement d’un dispositif ultrasonore pour l’estimation de l’ostéointégration d’implants osseux,13-009,OsseoWave,226785.52,2013,S,PRT
+5,750712184.0,ASSISTANCE PUBLIQUE AP-HP,BOUTRON,Audrey,Potentiel thérapeutique d’activateurs de l’AMPK pour la correction des déficits héréditaires de la ß-oxydation mitochondriale des acides gras.,13-016,THERABETAOX,250641.04,2013,S,PRT
+6,380780080.0,CHU GRENOBLE,FAGRET,Daniel,Imagerie moléculaire des plaques d'athérome coronaires en pratique clinique,13-019,MC2,765440.0,2013,S,PRT
+7,750712184.0,ASSISTANCE PUBLIQUE AP-HP,FIESCHI,Claire,Conséquences des défauts de réparation de l’ADN et du maintien des télomères sur le fonctionnement du Système Immunitaire: application aux DICV et aux déficits immunitaires avec syndromes dysmorphiques ,13-005,Immune-Rep,355544.8,2013,S,PRT
+8,750000549.0,FONDATION OPHTALMOLOGIQUE ROTHSCHILD,GABISON,Eric,Validation de PRIMA-1MET et TALEN comme agents thérapeutiques des déficiences visuelles EEC ,13-011,PRIMA-TALEN VISION,424958.56,2013,S,PRT
+9,590780193.0,CHRU LILLE,GOWER-ROUSSEAU,Corinne,Mise en évidence de différences du microbiote fécal selon l’âge diagnostique dans la maladie de Crohn et leur relation avec des profils génétiques et sérologiques différents.,13-003,COMeBACk,399195.784,2013,S,PRT
+10,370000481.0,CHRU DE TOURS,HOMMET,Caroline,"NeuroInflammation et déclin cognitif dans la maladie d' Alzheimer : Etude pilote de l'imagerie TEP des proteines translocatrices (TSPO) à l'aide du [18 F] DPA-714
+(NICAD)
+",13-020,NICAD,571042.0,2013,S,PRT
+11,630780989.0,CHU DE CLERMONT-FERRAND,JABAUDON,Matthieu,"Approche translationnelle de la voie du récepteur des produits de glycation avancée (RAGE) au cours du syndrome de détresse respiratoire aiguë (SDRA) : Implications physiopathologiques, diagnostiques et thérapeutiques
+",13-014,TAURA,318000.8,2013,S,PRT
+12,330781196.0,CHU HOPITAUX DE BORDEAUX,LAURENT,François,Logiciel de traitement d’images multi modalités applicable au guidage de l’ablation cardiaque,13-008,MIGAT,70668.0,2013,S,PRT
+13,750712184.0,ASSISTANCE PUBLIQUE AP-HP,MICHEL,Marc,"Interférer avec la persistance des plasmocytes auto-immuns au cours des thérapies de déplétion des lymphocytes B
+
+
+",13-010,PC-RITUX,126968.4,2013,S,PRT
+14,750712184.0,ASSISTANCE PUBLIQUE AP-HP,PALFI,Stéphane,"Thérapie génique de la dopamine pour les traitements des signes moteurs et non-moteurs de la maladie de Parkinson:
+Programme de recherche translationnelle des modèles primates non-humains aux patients 
+",13-004,DopaGene,529453.6,2013,S,PRT
+15,750712184.0,ASSISTANCE PUBLIQUE AP-HP,POYART,Claire,Approche Intégrative d’identification des Facteurs de Risque d’Infections néo-natales par le Streptocoque du Groupe B CC-17,13-013,STrepB17,368384.10959999997,2013,S,PRT
+16,440000289.0,CHU DE NANTES,ROZES,Jean-Christophe,Clostridium et physiopathologie de l'entérocolite ulcéronécrosante du prématuré: approches clinique et moléculaire,13-018,ClosNEC,217268.0,2013,S,PRT
+17,690781810.0,HOSPICES CIVILS DE LYON,SCHLUTH-BOLARD,Caroline,Caractérisation moléculaire de remaniements chromosomiques apparemment équilibrés par séquençage haut-débit chez 55 patients atteints de déficience intellectuelle et/ou malformations congénitales,13-001,ANI,827862.932,2013,S,PRT
+18,670780055.0,HOPITAUX UNIVERSITAIRES DE STRASBOURG,SIBILIA,Jean,Expression des microARN pendant la grossesse chez les femmes atteintes de polyarthrite rhumatoïde et de lupus disséminé.,13-012,SPIRALE,231215.08800000002,2013,S,PRT
+19,750712184.0,ASSISTANCE PUBLIQUE AP-HP,SOCIE,Gérard,Biomarqueurs de la maladie du greffon contre l'hôte et de la tolérance immunitaire chez l'homme,13-002,BioGvHD,1223248.0,2013,S,PRT
+20,310781406.0,CHU DE TOULOUSE,THALAMAS,Claire,Développement d’un médicament expérimental : un dendrimère phosphoré anti-inflammatoire et immuno-modulateur,13-021,TREE-DRUG,188025.0,2013,S,PRT
+0,750712184.0,ASSISTANCE PUBLIQUE AP-HP,BIRAN ,Valérie ,Ontogénie des cellules MAIT chez le nouveau-né et le receveur d’allogreffe de cellules souches hématopoïétiques,14-007,NEOMAIT,284054.0,2014,S,PRT
+1,690781810.0,HOSPICES CIVILS DE LYON,DUCRAY,François,Mecanismes des encéphalites auto-immunes,14-006,MECANO,245796.0,2014,S,PRT
+2,750712184.0,ASSISTANCE PUBLIQUE AP-HP,FRANGE,Pierre,Infections invasives à pneumocoque de l’enfant : vers l'identification de nouveaux déficits immunitaires héréditaires,14-008,PNEUMOPID,13200.0,2014,S,PRT
+3,750712184.0,ASSISTANCE PUBLIQUE AP-HP,GAUTIER,Jean-François,GLP-1 et angiogenèse : safety dans le traitement du diabète de type 2 ?,14-002,Angiosafe-T2D,920679.0,2014,S,PRT
+4,590780193.0,CHRU LILLE,GOFFARD,Anne,Identification d’inhibiteurs de l’infection par les coronavirus humains émergents SARS-CoV et MERS-CoV par analyse de signatures transciptomiques cellulaires,14-010,CoV-SigN,62828.0,2014,S,PRT
+5,750712184.0,ASSISTANCE PUBLIQUE AP-HP,LORTHOLARY,Olivier,Déterminisme génétique des infections fongiques invasives chez l'homme,14-003,HGDIFD,71874.999,2014,S,PRT
+6,750712184.0,ASSISTANCE PUBLIQUE AP-HP,MALLET,Alain,Prédire pour prévenir les démences frontotemporales (DFT) et la sclérose latérale amyotrophique (SLA),14-001,PREV-DEMALS,1183439.0,2014,S,PRT
+7,750712184.0,ASSISTANCE PUBLIQUE AP-HP,MOCHEL,Fanny,Validation de biomarqueurs moléculaires d’imagerie cérébrale pour la maladie de Huntington en vue d’un essai thérapeutique ciblant le cycle de Krebs,14-005,HDeNERGY,376244.1,2014,S,PRT
+8,380780080.0,CHU GRENOBLE,RAY,Pierre,Génétique et Physiopathologie des anomalies morphologiques  du flagelle spermatique associé à une infertilité masculine.,14-004,MAS Flagella,569900.0,2014,S,PRT
+9,750712184.0,ASSISTANCE PUBLIQUE AP-HP,SPORTICHE,Sarah,Réponse thérapeutique au Lithium dans les troubles BIPolaires de l’humeur et Imagerie Spectroscopique par RMN du Lithium-7 intracérébral à 7 Tesla,14-009,BIP-Li7,171746.0,2014,S,PRT
+0,750712184.0,ASSISTANCE PUBLIQUE AP-HP,APARICIO ,Thomas,Phénotypage des adénocarcinomes de l’intestin grêle,14-091,BIO-NADEGE,98095.0,2014,K,PRT
+1,940000664.0,INSTITUT GUSTAVE ROUSSY,BESSE,Benjamin,Intérêt des cellules tumorales circulantes (CTC) pour étudier la résistance aux thérapies ciblées chez les patients atteints de cancer bronchique non à petites cellules ALK positifs,14-032,CELLTRACE,277453.0,2014,K,PRT
+2,630000479.0,CENTRE REGIONAL JEAN PERRIN,CACHIN,Florent,Vers une approche diagnostique et thérapeutique innovante du chondrosarcome par ciblage des protéoglycanes,14-066,D-TECT,192698.0,2014,K,PRT
+3,750712184.0,ASSISTANCE PUBLIQUE AP-HP,FLEJOUX,Jean-François ,Epissages Aberrants Générés par Instabilité des Microsatellites dans les Cancers Colorectaux : Impact Physiopathologique et Relevance Clinique,14-056,MICROSPLICOTHER,168922.0,2014,K,PRT
+4,750712184.0,ASSISTANCE PUBLIQUE AP-HP,GIMENEZ-ROQUEPLO,Anne-Paule ,"Le réseau COMETE, en route vers une carte d’identité des cancers/tumeurs de la surrénale
+",14-079,COMETE-TACTIC,455197.0,2014,K,PRT
+5,330000662.0,INSTITUT BERGONIE,ITALIANO ,Antoine,NEO-Sarcomics. Valeur pronostique de la signaturee CINSARC et association à l’efficacité de la chimiothérapie. Etude Bio-marqueur.,14-113,NEO-SARComics,303997.0,2014,K,PRT
+6,380780080.0,CHU GRENOBLE,LANTUEJOUL ,Sylvie,Ciblage de la kinase CDK4/Cycline D par des foldamères et application thérapeutique au cancer du poumon,14-017,FOLDLUNGK4,175200.0,2014,K,PRT
+7,690000880.0,CENTRE LEON BERARD,MARABELLE,Aurélien,Thérapie ciblée anti-ALK et immunomodulation dans le neuroblastome,14-061,ATTI-Neuro ,316420.0,2014,K,PRT
+8,750712184.0,ASSISTANCE PUBLIQUE AP-HP,PERLEMUTER,Gabriel ,Influence du syndrome métabolique et des taux circulants d’acides biliaires sur le développement des cancers hépatocellulaire et des voies biliaires,14-038,MetS-Liver,81006.0,2014,K,PRT
+9,750813321.0,INSTITUT CURIE Paris Saint-Cloud,ROULEAU,Etienne ,Évaluation des variants faux-sens de signification clinique inconnue du gène BRCA2 en vue de l'optimisation du conseil génétique,14-134,BRCA2VUSEVA,267800.0,2014,K,PRT
+10,860780980.0,CHU DE POITIERS,ROY,Lydia,L’hypothèse du ciblage thérapeutique par le Dasatinib de l’axe lymphocytaire iNKT/T « innate-memory » dans la leucémie myéloïde chronique,14-072,META-DASA,120077.0,2014,K,PRT
+11,940000664.0,INSTITUT GUSTAVE ROUSSY,SCOAZEC,Jean-Yves ,Mécanismes d’invasion dans les tumeurs neuroendocrines : vers un concept de transition épithélio-neurale ? ,14-049,ENT-NET,79500.0,2014,K,PRT
+12,690000880.0,CENTRE LEON BERARD,TREDAN,Olivier,La voie non génomique des oestrogènes : nouvelle cible thérapeutique dans le cancer du sein,14-025,CYTOTHER,197000.0,2014,K,PRT
+13,750712184.0,ASSISTANCE PUBLIQUE AP-HP,TRINCHET,Jean-Claude,Transfert des classifications moléculaires et génétiques des carcinomes hépatocellulaires en pratique clinique (projet MUTHEC),14-131,MUTHEC,227546.0,2014,K,PRT
+0,,ASSISTANCE PUBLIQUE AP-HP,LAMARQUE,Dominique,Endoscopie MultiModale pour les lésions Inflammatoires de l’Estomac,15-001,EMMIE ,105850.0,2015,S,PRT
+1,,CHU DE NANTES,GRAS-LEGUEN,Christèle,"Spécificité d'attachement sur les glycannes, vers une amélioration des vaccins rotavirus",15-002,GASTROVIM,182955.7,2015,S,PRT
+2,,CHU DIJON,GIRODON,François ,Etude des anomalies génétiques des érythrocytoses inexpliquées,15-003,GenRED,148326.0,2015,S,PRT
+3,,CHU DE NANTES,DESAL,Hubert,Anévrismes intracraniens : des formes familiales aux méchanismes physiopathologiques,15-004,I-CAN,336913.9,2015,S,PRT
+4,,ASSISTANCE PUBLIQUE AP-HP,MALAMUT,Georgia,DEFICIT EN FER ET LESIONS INTESTINALES DANS LA MALADIE COELIAQUE,15-005,IRAC,44448.0,2015,S,PRT
+5,,ASSISTANCE PUBLIQUE AP-HP,BEAUGERIE,Laurent,Lymphocytes T régulateurs humains induits par Faecalibacterium prausnitzii: développement d’outils diagnostiques et thérapeutiques pour la prise en charge  des maladies inflammatoires chroniques de l’intestin (MICI).,15-006,MicI-Treg,118326.9,2015,S,PRT
+6,,ASSISTANCE PUBLIQUE AP-HP,LECUIT,Marc,Susceptibilité génétique et biomarqueurs dans la listériose,15-007,MONALISA-GENBIO,61736.9,2015,S,PRT
+7,,ASSISTANCE PUBLIQUE AP-HP,Bourron,Olivier,NASH et diabète de type 2: Rôle du récepteur activateur de NF-KappaB (RANK) et de son ligand (RANKL),15-008,NADRANK,545866.7,2015,S,PRT
+8,,ASSISTANCE PUBLIQUE AP-HP,AMTHOR,Helge,Traitement de la maladie de Pompe par modulation d'épissage,15-009,POMPE,449411.4,2015,S,PRT
+9,,HOSPICES CIVILS DE LYON,LINA, Gérard,Biomarqueurs bactériens et humains d’intérêt pronostic pour les légionelloses sévères,15-010,ProgLegio,520447.9,2015,S,PRT
+10,,ASSISTANCE PUBLIQUE AP-HP,GAULT,Nathalie,"Facteurs pronostiques des septicémies à Escherichia coli face à l’émergence de clones multirésistants, score de gravité et implications thérapeutiques.",15-011,SEPTICOLI,142438.3,2015,S,PRT
+11,,APHM,FABRE,Alexandre,Syndrome tricho-hépato-entérique des anomalies de la dégradation des ARN à un syndrome,15-012,THE-RNA,214635.5,2015,S,PRT
+12,,CHRU LILLE,BAUTERS, Christophe,New molecular stratification of heart failure patients for predicting early cardiac mortality: proteomic contribution,15-013,PROTEO-INCA,225496.8,2015,S,PRT
+0,690000880.0,Centre de Lutte contre le Cancer Leon Berard,FERNANDEZ-CUESTA,Lynnette,Caractérisation moléculaire des mésotheliomes pleuraux malins,PRT-K15-014,,64808.0,2015,K,PRT
+1,750712184.0,Assistance publique des hôpitaux de Paris,COHEN,José,Immunothérapie anti-tumorale par l’utilisation de complexes IL-2/Ac anti-IL-2,PRT-K15-039,,191342.0,2015,K,PRT
+2,370000481.0,CHRU de Tours,BOUAKAZ,Ayache,Délivrance ciblée de chimiothérapie par ultrasons et microbulles,PRT-K15-045,,212999.0,2015,K,PRT
+3,750050932.0,GCS UNICANCER,CARON,Olivier,"Détermination du spectre tumoral, de la pénétrance et de l’utilité clinique des mutations constitutionnelles dans les nouveaux gènes de prédisposition aux cancers du sein et de l’ovaire.",PRT-K15-166,,200200.0,2015,K,PRT
+4,750712184.0,Assistance publique des hôpitaux de Paris,OGIER DENIS,Eric,Identification de biomarqueurs associés au risque de dysplasie/cancer colique au cours des Maladies Inflammatoires Chroniques Intestinales,PRT-K15-060,,95878.0,2015,K,PRT
+5,750712184.0,Assistance publique des hôpitaux de Paris,CUSSENOT,Olivier,Prise en charge clinique et moléculaire des hommes à haut risque génétique de cancer de prostate,PRT-K15-056,,61875.0,2015,K,PRT
+6,750813321.0,Institut Curie - Ensemble Hospitalier ,MEHLEN,Patrick,Ciblage de la voie des récepteurs à dépendance dans les médulloblastomes Hedgehog-dépendants.,PRT-K15-083,,217196.0,2015,K,PRT
+7,590000188.0,"Centre Oscar Lambret, LILLE",HAMAMAH,Samir,"Trans-CHACRY_Nouveaux marqueurs non invasifs de la qualité folliculaire, ovocytaire et embryonnaire chez les patientes traitées pour un cancer du sein",PRT-K15-084,,50005.0,2015,K,PRT
+8,750050932.0,GCS UNICANCER,PAGES,Gilles,Les cytokines ELR+CXCL dans les cancers du rein métastatiques: des marqueurs prédictifs de résistance au sunitinib et de nouvelles cibles thérapeutiques pertinentes chez les patients résistants,PRT-K15-096,,151840.0,2015,K,PRT
+9,250000015.0,CHRU de Besançon,GARNACHE OTTOU,Francine,Evaluation de la sensibilité des blastes de Leucémie dérivée des cellules dendritiques plasmacytoides (LpDC)  à 2 CAR-CD123 in vitro et in vivo dans un modèle murin de xenogreffe,PRT-K15-175,,91009.0,2015,K,PRT
+10,310782347.0,Institut Claudius Regaud,POIROT,Marc,De la caractérisation des dérégulations de la voie des métabolites de l’époxyde du cholestérol vers de nouvelles pistes thérapeutiques dans les cancers du sein,PRT-K15-118,,162813.0,2015,K,PRT
+11,860780980.0,CHU de Poitiers,HATT,Mathieu,Modèle pronostique TEP/TDM dans le cancer du poumon non à petites cellules,PRT-K15-119,,84950.0,2015,K,PRT
+12,750813321.0,Institut Curie - Ensemble Hospitalier ,MECHTA-GRIGORIOU,Fatima,Déchiffrer l’impact du stroma dans les carcinomes épithéliaux ovariens de sous-type séreux et de haut grade,PRT-K15-120,,175634.0,2015,K,PRT
+13,940000664.0,Institut Gustave Roussy,HADDY,Nadia,Variants des gènes de réparation de l’ADN et risque de second cancer,PRT-K15-130,,55000.0,2015,K,PRT
+14,750712184.0,Assistance publique des hôpitaux de Paris,LEBBE,Celeste,Définition et validation d’une signature immunologique prédictive de l’efficacité des anticorps anti-PD1 dans le traitement du mélanome avancé (PREDIMEL,PRT-K15-104,,288902.0,2015,K,PRT
+15,440000289.0,CHU de Nantes,BLANCHO,Gilles,Contrôle des cellules myéloïdes suppressives par SIRP-alpha: investigation dans le carcinome hépatocellulaire,PRT-K15-136,,53165.0,2015,K,PRT
+16,590780193.0,CHRU Lille,PREUDHOMME,Claude,ciblage des anomalies moléculaires associées aux leucémies aigues NPM1,PRT-K15-125,,293983.0,2015,K,PRT
+17,870000015.0,CHU de Limoges,MATHONNET,Muriel,Impact diagnostique et pronostique de l’analyse de l’ADN circulant dans le suivi des patients traités curativement pour un cancer colorectal,PRT-K15-172,,217669.0,2015,K,PRT
+18,750712184.0,Assistance publique des hôpitaux de Paris,BRISSOT,Eolia,La méthyl-qPCR : un nouveau marqueur prédictif  des lymphoproliférations associées au virus Epstein-Barr  en allogreffe de cellules souches hématopoïétiques,PRT-K15-174,,98399.0,2015,K,PRT
+19,750712184.0,Assistance publique des hôpitaux de Paris,SANSON,Marc,"Marqueurs moléculaires circulants pour le diagnostic, le suivi des gliomes et l’analyse de la récidive",PRT-K15-061,,91382.0,2015,K,PRT
+0,750712184.0,ASSISTANCE PUBLIQUE AP-HP,BLANCHE,Stéphane,Dissection génétique de la Susceptibilité Mendélienne aux infections mycobactériennes chez l'homme,PRTS-16-001,GENMSD,126632.0,2016,S,PRT
+1,690781810.0,HOSPICES CIVILS DE LYON,TRUY,Eric,Espace auditif et attention multisensorielle chez les patients implantés cochléaires,PRTS-16-002,VirtualHearing3D,158670.0,2016,S,PRT
+0,690000880.0,CENTRE LEON BERARD,TREDAN,Olivier ,"Association entre les structures lymphoïdes tertiaires, le profil mutationnel des tumeurs et l’immunité anti-tumorale : impact sur les thérapies ciblant les checkpoints immunitaires dans les cancers du poumon et du sein",PRT-K16-023,TLSMUTONICP,280000.0,2016,K,PRT
+1,760780239.0,CHU ROUEN,PFISTER,Christian,Réponse des tumeurs du sous-groupe basal à la chimiothérapie dans les cancers de vessie,PRT-K16-033,BoBCaT,290200.0,2016,K,PRT
+2,690781810.0,HOSPICES CIVILS DE LYON,DALLE,Stéphane,"Définition, dans le Mélanome, de biomarqueurs permettant de Prédire la réponse aux anti-PD1 et de Cibles pour une combinaison d’immunothérapies",PRT-K16-051,MelPredictPD1,257097.0,2016,K,PRT
+3,130001647.0,INSTITUT PAOLI CALMETTES,VEY,Norbert,Régulation de l’épissage par JAM-C dans les leucémies myéloïdes,PRT-K16-067,Jam4Splice,123496.0,2016,K,PRT
+4,130001647.0,INSTITUT PAOLI CALMETTES,DEVILLIER,Raynier,Utilisation de l’épigénomique pour découvrir de nouveaux biomarqueurs des AML,PRT-K16-071,epigenAML,162257.0,2016,K,PRT
+5,750712184.0,ASSISTANCE PUBLIQUE AP-HP,CAZES,Aurélie ,Cancer et Fibrose Pulmonaire : du patient vers la paillasse,PRT-K16-088,K-FPI-,304074.0,2016,K,PRT
+6,60785011.0,CHU DE NICE,PEDEUTOUR,Florence ,La voie de signalisation cellulaire FGF/FGFR : une nouvelle cible thérapeutique dans les liposarcomes,PRT-K16-102,FILIPO,110680.0,2016,K,PRT
+7,750712184.0,ASSISTANCE PUBLIQUE AP-HP,DELHOMMEAU,François,une nouvelle cible pour l’éradication du clone pré-leucémique dans les leucémies aiguës myéloïdes,PRT-K16-122,MIF-AML,223920.0,2016,K,PRT
+8,750712184.0,ASSISTANCE PUBLIQUE AP-HP,ALENTORN,Agusti,Modélisation mathématique à l’échelle micro et macroscopique des lymphomes primitifs du système nerveux central,PRT-K16-149,LOC-Model,171340.0,2016,K,PRT
+9,490000031.0,CHU D'ANGERS,PELLIER,Isabelle,Recherche par exome de nouveaux gènes de prédisposition aux cancers rares chez l'enfant (EXOme Cancers Rares de l'Enfant).,PRT-K16-155,EXOCare,309584.0,2016,K,PRT
+10,750712184.0,ASSISTANCE PUBLIQUE AP-HP,CANLORBE,Geoffroy ,Place des microARN plasmatiques comme nouveaux biomarqueurs dans les cancers gynécologiques (cancer l’endomètre et de l’ovaire).,PRT-K16-158,GYNO-MIR,157849.0,2016,K,PRT
+11,690781810.0,HOSPICES CIVILS DE LYON,GHESQUIERES,Hervé,Rôle pronostique et physiopathologique des variants génétiques constitutionnels chez les patients porteurs de lymphome folliculaire,PRT-K16-167,CONPIL,162580.0,2016,K,PRT
+12,750050932.0,GCS UNICANCER,ALBIGES, Laurence,Translational Program-Programme Translationel de l’essai GETUG-AFU-26 NIVOREN (Nivolumab chez les patients atteints d'un carcinome rénal métastatique).,PRT-K16-181,GETUG-AFU26-NIVOREN,65700.0,2016,K,PRT
+13,750712184.0,ASSISTANCE PUBLIQUE AP-HP,SIBON,David,"Comparison Of DLBCL In Children and Adults)-Lymphome B diffus à grandes cellules de l’enfant et de l’adulte : comparaison pathobiologique, génétique et moléculaire : une étude SFCE-LYSA",PRT-K16-185,CODICA,10864.0,2016,K,PRT
+0,440000289.0,CHU NANTES,BARBAROT,Sébastien,"Caractérisation en période périnatale de la maturation du système immunitaire et de la composition du microbiote intestinal et du lait, en présence ou non d'une supplémentation maternelle en prébiotiques visant à prévenir l'allergie infantile.",PRTS-17-001,CIMMAP,272785.0,2017,S,PRT
+1,750712184.0,AP-HP,GRATEAU,Gilles,Fièvre méditerranéenne familiale (FMF) et maladies apparentées : de la génétique aux tests diagnostiques fonctionnels,PRTS-17-002,FMFgeneToDiag,138138.0,2017,S,PRT
+0,750712184.0,AP-HP,ADES,Lionel,Immunologie du microenvironnement médullaire dans les Syndromes Myélodysplasiques,109,BM-IMMUNE-MDS,26123.0,2017,K,PRT
+1,380780080.0,CHU GRENOBLE,BALOSSO,Jacques,Association à la radiothérapie conventionnelle d’un boost délivré par microfaisceaux synchrotron pour augmenter le contrôle local des tumeurs cérébrales : dernières étapes en vue d’un transfert clinique de la MRT,48,MRT-Boost,94978.0,2017,K,PRT
+2,340780477.0,CHU MONTPELLIER,CARTRON,Guillaume,Combinaison d'anticorps monoclonaux et de cellules NK pour guérir le cancer,101,CaNKill,192528.0,2017,K,PRT
+3,690000880.0,CENTRE LEON BERARD,DEPIL,Stéphane,Analyse des effets immunitaires de l’expression des rétrovirus endogènes dans les tumeurs solides,72,HERVImmune,266178.0,2017,K,PRT
+4,750712184.0,AP-HP,DOMBRET,Hervé,Maladie résiduelle clono-spécifique dans les leucémies aiguës myéloïdes,55,AML_CLONE,340455.0,2017,K,PRT
+5,340000207.0,ICM (INSTITUT REGIONAL DU CANCER DE MONTPELLIER),JACOT,William,BRCA et CDKs des cibles pour moduler la réponse des cancers du sein triple négatifs aux poisons de la réplication de l'ADN?,138,MODUREPPOIS,275173.0,2017,K,PRT
+6,690000880.0,CENTRE LEON BERARD,LANTUEJOUL,Sylvie,Caractérisation génétique et moléculaire des tumeurs carcinoïdes broncho-pulmonaires,47,PCA,182337.0,2017,K,PRT
+7,750712184.0,AP-HP,LE PIMPEC-BARTHES,Françoise,"De la tumeur aux ganglions, hétérogénéité moléculaire et signature métastatique comme marqueur de rechute précoce dans les cancers bronchiques non à petites cellules IIIA-N2 opérés.",94,N2-3S,555556.0,2017,K,PRT
+8,750712184.0,AP-HP,NAULT,Jean-Charles,Télomérase dans la carcinogenèse hépatique : fonction et transfert vers la clinique,93,TELOTHEP,87646.0,2017,K,PRT
+9,60785011.0,CHU NICE,PASSERON,Thierry,Validation préclinique de nouveaux composés anti-mélanome : étude sur cellules de patients sensibles et résistants aux inhibiteurs de BRAF et de MEK,12,ERMELATHER,148027.0,2017,K,PRT
+10,540023264.0,CHU NANCY,RUBIO,Marie,Expansion de lymphocytes NKT invariants humains à visée d’immunothérapie permettant de contrôler la réaction du greffon contre l’hôte et préservant l’effet de la greffe contre la leucémie après greffe de cellules souches hématopoiétiques allogéniques,95,ExpiNKT,165715.0,2017,K,PRT
+11,690000880.0,CENTRE LEON BERARD,SAINTIGNY,Pierre,Caractérisation de la plasticité des cellules tumorales induite par l’EMT,154,EMT-CoNCEPT,333891.0,2017,K,PRT
+12,690000880.0,CENTRE LEON BERARD,TREDAN,Olivier,Nouvelle thérapie anti-tumorale grâce à la production d'un ADC ciblant ERα-36 à la membrane des cellules tumorales mammaires.,7,ISOTHER,156600.0,2017,K,PRT
+0,330781196.0,CHU BORDEAUX,ALADJIDI,Nathalie,Cytopénies Auto-immunes: génétique et mécanismes physiopathologiques du syndrome d'Evans pédaitrique,PRTS-18-001,ACTION,205687.2,2018,S,PRT
+1,750712184.0,AP-HP,DAUGAS,Eric,Nouveaux traitement issus de l'extinction du lupus en dialyse,PRTS-18-003,ELuDial,97547.0,2018,S,PRT
+2,330781196.0,CHU BORDEAUX,JAMES,Chloé,Thrombopénies acquises chroniques de signification indeterminée: physiopathologie et biomarqueur,PRTS-18-004,ICTUS,95923.0,2018,S,PRT
+3,440000289.0,CHU NANTES,MAGNAN,Antoine,Prédiction de la dysfonction chronique du greffon après transplantation pulmonaire,PRTS-18-005,PRELUD,357411.6,2018,S,PRT
+4,330781196.0,CHU BORDEAUX,NICOLESCU-CATARGI,Bogdan,Capteurs bio-électroniques intégrant l’algorithme des îlots pour le contrôle de la glycémie en boucle ouverte et fermée,PRTS-18-002,DIABLO,67758.6,2018,S,PRT
+0,750160012.0,CLCC INSTITUT CURIE,BOURDEAUT,Franck,"Caractérisation moléculaire et immunologique des tumeurs à haut risque de l'enfant, l'adolescent et l'adulte jeune au diagnostic et durant le traitement et le suivi - étude de l'évolution clonale",K18-035,MICCHADO,90310.0,2018,K,PRT
+1,690000880.0,CENTRE LEON BERARD,CORRADINI,Nadège,Analyses Moléculaires Intégratives des Sarcomes Pédiatriques Inclassés,K18-023,iMAPs,337250.0,2018,K,PRT
+2,750712184.0,AP-HP,CULINE,Stéphane,Potentiel thérapeutique du checkpoint immunitaire HLA-G/ILT dans les cancers urologiques,K18-021,OncoTheraGe,82507.0,2018,K,PRT
+3,130001647.0,INSTITUT PAOLI CALMETTES,"DEVILLIER
+",Raynier,Immunothérapie allogénique NK après greffe  haplo identique chez les patients atteints de leucémie aiguë myéloïde.,K18-121,HAPLO-NK,120507.0,2018,K,PRT
+4,60000528.0,CENTRE ANTOINE LACASSAGNE,ETIENNE-GRIMALDI,Marie-Christine,Recherche d’une signature multigénique pour sécuriser les chimiothérapies à base de fluoropyrimidines dans le cancer colorectal,K18-064,FUSafe-2,673302.0,2018,K,PRT
+5,130001647.0,INSTITUT PAOLI CALMETTES,GILABERT,Marine,Sénescence et chimiorésistance: nouvelles opportunités thérapeutiques dans les cancers du pancréas ?,K18-100,SenChem,197950.0,2018,K,PRT
+6,750712184.0,AP-HP,HERMINE,Olivier,L’activation du TCR comme une potentielle cible thérapeutique dans les Leucémies Aigues Lymphoblastiques T et les lymphomes/leucémies liées au virus HTLV-1.,K18-071,CD3-ACTnDIE,207013.0,2018,K,PRT
+7,310781406.0,CHU DE TOULOUSE,MAZIERES,Julien,Comprendre et prévenir la résistance adaptative aux thérapies ciblées anti-EGFR de troisième génération dans les cancers bronchiques.,K18-048,LUNG-RESIST,289419.0,2018,K,PRT
+8,940000664.0,CLCC INSTITUT GUSTAVE ROUSSY,ROBERT,Caroline,Régulation traductionnelle des points de contrôle immunologiques : perspectives en thérapeutique anticancéreuse,K18-073,TRIC,249730.0,2018,K,PRT
+9,750712184.0,AP-HP,TOURNIGAND,Christophe,Une nouvelle immunothérapie ciblant TNFR2 associée à une normalisation vasculaire pour le traitement des cancers digestifs,K18-022,IMPROVE-ICI,129813.0,2018,K,PRT
+10,690000880.0,CENTRE LEON BERARD,TREILLEUX,Isabelle,"L’interaction Bcl-B/IP3R, une nouvelle cible thérapeutique",K18-037,ONCO-BCL,170009.0,2018,K,PRT
+11,310782347.0,INSTITUT CLAUDIUS REGAUD,VALENTIN,Thibaud,Caractérisation de l’environnement immunitaire des Sarcomes rares – Projet MIRAS « SARcomes Rares » (SARRA) du GSF-GETO,K18-019,MIRAS,491459.0,2018,K,PRT
+12,690781810.0,HCL,ZOULIM,Fabien,"Netrin-1 et carcinome hépatocellulaire : pathologie, ciblage préclinique, et critères de sélection clinique pour essais de phase 1",K18-063,HCC-Net,286152.0,2018,K,PRT
+0,750712184.0,AP-HP,STANKOFF,Bruno,LYMPHOCYTES : CONTROLEUR DE L'ACTIVATION MICROGLIALE ET DE LA REMYELINATION CHEZ LES PATIENTS ATTEINTS LA SCLEROSE EN PLAQUES,PRTS-19-001,SMARTinMS,269611.0,2019,S,PRT
+1,750712184.0,AP-HP,ROUSSEL,Ronan,Impact du métabolisme de la glutamine dans les complications cardio-vasculaires dans le diabète,PRTS-19-002,GlutaDiab,447530.0,2019,S,PRT
+2,440000289.0,CHU NANTES,GOURNAY,Jérôme,Signature lymphocytaire T auto-antigène-spécifique au cours des maladies auto-immunes du foie,PRTS-19-003,DISTAL,260142.0,2019,S,PRT
+3,750712184.0,AP-HP,PICARD,Capucine,Déficits immunitaires héréditaires humoraux: génétique et mécanismes pathologiques,PRTS-19-004,AID,75000.0,2019,S,PRT
+0,940000664.0,CLCC INSTITUT GUSTAVE ROUSSY,ANDRE,Fabrice,Ciblage thérapeutique de l’Hepatic Leukemia Factor dans les cancers du sein triple negatifs,PRT-K19-156,HLF-TNBC,86000.0,2019,K,PRT
+1,750712184.0,AP-HP,BECCARIA,Kevin,Hétérogénéité des tumeurs rhabdoides : approches protéomiques et « Cellules uniques » pour identifier des cibles thérapeutiques,PRT-K19-052,InnovRT,122680.0,2019,K,PRT
+2,750712184.0,AP-HP,BENAMOUZIG,Robert,Caractérisation du microbiote fécal chez des sujets présentant un Syndrome de Lynch ayant ou non développé une néoplasie colique,PRT-K19-058,AAS-LYNCH-MICROBIOTE,59779.0,2019,K,PRT
+3,750050940.0,GCS UNICANCER,BIDARD,François-Clément,Etude translationnelle de l’essai de phase III « PADA-1 » des groupes UCBG et GINECO.,PRT-K19-110,YODA,260370.0,2019,K,PRT
+4,940000664.0,CLCC INSTITUT GUSTAVE ROUSSY,CHARGARI,Cyrus,Prédiction de la réponse à la combinaison radio-chimiothérapie +/-immunothérapie dans les cancers du col utérin localement avancés : Développement d’une signature radiomique de l’infiltration lymphocytaire,PRT-K19-101,MRI-ImmunoRadiomics,61380.0,2019,K,PRT
+5,130786049.0,APHM,CHINOT,Olivier,Identification de nouvelles cibles thérapeutiques dans le glioblastome par une approche de chémogénomique  à haut-débit,PRT-K19-135,HITCH,39837.0,2019,K,PRT
+6,750160012.0,CLCC INSTITUT CURIE,COLAS,Chrystelle,Développements thérapeutiques ciblant le phénotype hypermutateur liée à l’inactivation du gène MBD4,PRT-K19-051,TREAT-MBD4,139446.0,2019,K,PRT
+7,750050940.0,GCS UNICANCER,CONROY,Thierry,Signature moléculaire des adénocarcinomes du pancréas,PRT-K19-131,MOSAPAC,168005.0,2019,K,PRT
+8,250000015.0,CHU BESANCON,DECONINCK,Eric,"Classification moléculaire, stratification pronostique et adaptation thérapeutique dans les leucémies dérivées de cellules dendritiques (LpDC)",PRT-K19-069,FreGATE-pDC,50258.0,2019,K,PRT
+9,750712184.0,AP-HP,DONADIEU,Jean,Cibles moléculaires pour le traitement des histiocytoses,PRT-K19-143,Target_histio,347332.0,2019,K,PRT
+10,690781810.0,HCL,DUCRAY,François,Caractérisation protéomique des oligodendrogliomes agressifs,PRT-K19-088,ProGlio,127329.0,2019,K,PRT
+11,940000664.0,CLCC INSTITUT GUSTAVE ROUSSY,DUFOUR,Christelle,Système d’Intégration de Données pour une Médecine Prédictive  dans le Médulloblastome.,PRT-K19-027,BEEP:BettErPredict,326074.0,2019,K,PRT
+12,750160012.0,CLCC INSTITUT CURIE,GIRARD,Nicolas,Biopsies liquides pour prédire les réponses aux immunothérapies dans les cancers bronchiques non à petites cellules métastatiques.,PRT-K19-037,LIBERTY-LUNG,580050.0,2019,K,PRT
+13,690000880.0,CENTRE LEON BERARD,GIRAUDET,Anne-Laure,Développement d’une approche theranostic ciblant la Netrin-1 dans les tumeurs solides.,PRT-K19-018,INTeREST,69400.0,2019,K,PRT
+14,350005179.0,CHU DE RENNES,HOUOT,Roch,Evaluation de la relation entre exposition aux anti-PD-1 et volume tumoral chez le patient traité pour un lymphome de Hodgkin classique,PRT-K19-120,REVOLUMHOD,185921.0,2019,K,PRT
+15,670780055.0,HUS,MALOUF,Gabriel,Caractérisation Moléculaire Intégrative des Cancers du Rein à Translocation de la Famille MiT,PRT-K19-154,IMCOR,251137.0,2019,K,PRT
+0,310781406.0,CHU DE TOULOUSE,RASCOL,Olivier,Développement et validation d’une imagerie multimodale du tronc cérébral pour explorer la microstructure tissulaire,PRTS-20-001,DEVINET,194283.0,2020,S,PRT
+1,750712184.0,ASSISTANCE PUBLIQUE AP-HP,BACHOUD-LEVI,Anne-catherine,Imagerie Innovante et BIOmarqueurs cognitifs pour prédire la progression de la maladie de Huntington,PRTS-20-002,I2BIO-HD,498750.0,2020,S,PRT
+2,630780989.0,CHU DE CLERMONT-FERRAND,FUTIER,Emmanuel,Effets du sévoflurane inhalé sur la perméabilité épithéliale pulmonaire liés à la voie RAGE et identification d'un marqueur de réponse thérapeutique dans le syndrome de détresse respiratoire aiguë,PRTS-20-003,RESPIRE,276142.0,2020,S,PRT
+3,330781196.0,CHU HOPITAUX DE BORDEAUX,PELLEGRIN,Isabelle,Infections virales et maladie d'Alzheimer,PRTS-20-004,VirAlz,209989.0,2020,S,PRT
+0,750712184.0,ASSISTANCE PUBLIQUE AP-HP,ADES,Lionel,Etude prospective de faisabilité d’un criblage pharmacologique multiparamétrique en conditions pseudo-niche dans les leucémies aiguës myéloïdes.,PRT-K20-018,NEXT-AML,90782.6,2020,K,PRT
+1,750712184.0,ASSISTANCE PUBLIQUE AP-HP,BERTHERAT,Jérôme,Positionner en routine les marqueurs moléculaires pour la prise en charge des cancers de la surrénale.,PRT-K20-134,COMETE-CARE,327050.0,2020,K,PRT
+2,940000664.0,CLCC INSTITUT GUSTAVE ROUSSY,BESSE,Benjamin,Preuve de concept d’une immunothérapie combinatoire innovante fondée sur des néoantigènes non-mutés ciblant des tumeurs résistantes.,PRT-K20-070,ppCTherapy,149000.0,2020,K,PRT
+3,340780477.0,CHU MONTPELLIER,CARTRON,Guillaume,Génération de cellules NK de type CAR non génétiquement modifiées.,PRT-K20-022,NoCar,214508.1,2020,K,PRT
+4,690781810.0,HOSPICES CIVILS DE LYON,DALLE,Stéphane,Netrin-1 dans le contrôle de la plasticité des mélanomes et la résistance aux immunothérapies.,PRT-K20-095,MELONET,207500.0,2020,K,PRT
+5,690000880.0,CENTRE LEON BERARD,DE LA FOUCHARDIERE,Christelle,Programme biologique translationnel de l’essai IMHOTEP (Immunothérapie néo-adjuvante dans les tumeurs MSI/dMMR) évaluant des marqueurs moléculaires et immunologiques.,PRT-K20-069,TRANS-IMHOTEP,71000.0,2020,K,PRT
+6,250000015.0,CHU BESANCON,DECONINCK,Eric,Transfert clinique d’un CAR123 académique de 3ème génération pour les patients atteints de leucémie dérivée des cellules dendritiques plasmacytoïdes (LpDC).,PRT-K20-107,CARLA,219532.5,2020,K,PRT
+7,690781810.0,HOSPICES CIVILS DE LYON,DUMONTET,Charles,Exploration du rôle de DIS3 dans le myélome.,PRT-K20-118,M2DIS3,236580.5,2020,K,PRT
+8,350002812.0,CTRE E. MARQUIS - RENNES,EDELINE,Julien,ARN circulaires circulants comme biomarqueurs innovants des cholangiocarcinomes.,PRT-K20-136,CCAbiomark,263575.4,2020,K,PRT
+9,750050932.0,GCS UNICANCER,FIZAZI,Karim,Programme Translationnel de l’essai GETUG-AFU 21-PEACE-1.,PRT-K20-116,GETUG-AFU 21-PEACE-1-RT,245600.0,2020,K,PRT
+10,210987731.0,CLCC GEORGES-FRANCOIS LECLERC,GHIRINGHELLI,François,Elaboration d’un outil d’intelligence artificielle pour estimer le pronostic des cancers coliques en situation adjuvante à partir de coupes histologiques colorées à l'hématoxyline éosine safran.,PRT-K20-093,AI-COLOPREDICT,196851.6,2020,K,PRT
+11,330000662.0,INSTITUT BERGONIE,ITALIANO,Antoine,Analyse intégrée de la valeur pronostique des cellules B et de biomarqueurs de réponse aux inhibiteurs de checkpoint immunologique dans les sarcomes des tissus mous avec présence de structures lymphoïdes tertiaires.,PRT-K20-106,INGENIOUS,244450.0,2020,K,PRT
+12,310782347.0,INSTITUT CLAUDIUS REGAUD,LAPRIE,Anne,Approche multiomique de la radiorésistance des ependymomes de l’enfant et adolescent.,PRT-K20-091,EPENDYMOMICS,437495.2,2020,K,PRT
+13,750160012.0,CLCC INSTITUT CURIE,MATET,Alexandre,Rôle de la voie Rho-Kinase dans le remodelage rétinien après irradiation des tumeurs oculaires: vers un traitement préventif de la rétinopathie radique.,PRT-K20-127,RadRet,212060.0,2020,K,PRT
+14,750712184.0,ASSISTANCE PUBLIQUE AP-HP,PAGES,Franck,Médecine Personnalisée en Cancérologie Colorectale  de stade précoce : Préservation d’organe et Bénéfice Immunitaire Associé.,PRT-K20-080,COLOSAVE,208191.5,2020,K,PRT
+15,940000664.0,CLCC INSTITUT GUSTAVE ROUSSY,POSTEL-VINAY,Sophie,Développement de biomarqueurs circulants prédictifs de réponse aux inhibiteurs de PARP en monothérapie ou combinaison avec un anti-PD-L1 : étude pilote preuve-de-concept.,PRT-K20-067,ARIANES - CTC,98595.0,2020,K,PRT
+16,690000880.0,CENTRE LEON BERARD,SUNYACH,Marie-Pierre,Recherche de signature moléculaire de sensibilité et de résistance à la radiothérapie préopératoire chez des patients adultes atteints de sarcomes des tissus mous des membres.,PRT-K20-154,RADIOSARC,108500.0,2020,K,PRT
