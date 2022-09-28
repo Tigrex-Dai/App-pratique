@@ -94,9 +94,9 @@ final = pd.DataFrame(semi1, columns=listeta)
 
 
 
-#
-# # 柱状图创建
-bars = Bar(init_opts=opts.InitOpts(theme='dark'))
+
+# 柱状图创建
+bars = Bar(init_opts=opts.InitOpts(theme='dark', width='1200px', height='700px'))
 #
 # # 添加值
 bars.add_xaxis(list(final['Année'])),
@@ -105,108 +105,110 @@ for g in listeta:
     bars.add_yaxis(g, list(final[g]), stack='stack1')
 
 
-# # 配置
-# bars.set_global_opts(
-#
-#     # 图表标题
-#     title_opts=opts.TitleOpts(
-#         # 标题
-#         title="eta",
-#         # 标题位置
-#         pos_left="left",
-#         # 标题字体大小设置为 20
-#         title_textstyle_opts=opts.TextStyleOpts(font_size=20)
-#     ),
-#
-#     # 图例设置
-#     legend_opts=opts.LegendOpts(
-#         # 显示图例，就是各个指标的切换按钮
-#         is_show=True,
-#         # 图例设置为单选模式(multiple 多选)
-#         selected_mode='multiple',
-#         # 图例的位置
-#         # pos_top='5%', pos_right='50%',
-#         # 图例的布局朝向，水平(vertical 垂直)
-#         orient='horizontal',
-#         # 图例形状
-#         legend_icon='circle'
-#     ),
-#
-#     # 工具箱设置
-#     toolbox_opts=opts.ToolboxOpts(
-#         # 是否显示工具栏组件
-#         is_show=True,
-#         # 布局朝向('vertical')
-#         orient='vertical',
-#         # 离上边距的距离
-#         pos_top='10%',
-#         # 离左边距的距离
-#         pos_left='91%',
-#
-#         # 配置各个工具箱
-#         feature=opts.ToolBoxFeatureOpts(
-#
-#             # 保存工具
-#             opts.ToolBoxFeatureSaveAsImageOpts(
-#                 # 是否显示
-#                 is_show=True,
-#                 # 提示语
-#                 title="save",
-#             ),
-#
-#             # 还原工具
-#             opts.ToolBoxFeatureRestoreOpts(
-#                 # 是否显示该工具
-#                 is_show=True,
-#                 # 提示语
-#                 title="undo",
-#             ),
-#
-#             # 数据视图工具
-#             opts.ToolBoxFeatureDataViewOpts(
-#                 # 是否显示该工具
-#                 is_show=True,
-#                 # 提示语
-#                 title="data",
-#                 # 是否不可编辑
-#                 is_read_only=False,
-#             ),
-#
-#             # 缩放工具配置项，直角坐标系适用
-#             opts.ToolBoxFeatureDataZoomOpts(
-#                 # 是否显示该工具。
-#                 is_show=True,
-#                 # 提示语
-#                 zoom_title="zoom",
-#                 # 提示语
-#                 back_title="undo",
-#             ),
-#
-#             # 图表类型切换，适用于直角坐标系
-#             opts.ToolBoxFeatureMagicTypeOpts(
-#                 # 是否显示该工具
-#                 is_show=True,
-#                 # 启用的动态类型('stack','line','bar','tiled')
-#                 type_=['stack', 'bar', 'tiled'],
-#                 # 折线标题文本
-#                 # line_title="折线图",
-#                 # 柱状标题文本
-#                 bar_title="barplot",
-#                 # 堆积标题文本
-#                 stack_title="stack",
-#                 # 平铺标题文
-#                 tiled_title="tiled",
-#             ),
-#
-#             # 工具箱选框组件配置项
-#             opts.ToolBoxFeatureBrushOpts(
-#                 # 选择显示哪些选框
-#                 type_=[]
-#             ),
-#         )
-#     ),
-# )
-# bars.render('bar.html')
+# 配置
+bars.set_series_opts(label_opts=opts.LabelOpts(is_show=False))
+bars.set_global_opts(
+
+    # 图表标题
+    title_opts=opts.TitleOpts(
+        # 标题
+        title="CHU/CHRU au choix",
+        # 标题位置
+        pos_left="left",
+        # 标题字体大小设置为 20
+        title_textstyle_opts=opts.TextStyleOpts(font_size=20)
+    ),
+
+    # 图例设置
+    legend_opts=opts.LegendOpts(
+        type_='scroll',
+        # 显示图例，就是各个指标的切换按钮
+        is_show=True,
+        # 图例设置为单选模式(multiple 多选)
+        selected_mode='multiple',
+        # 图例的位置
+        pos_top='3.5%', pos_right='1%',
+        # 图例的布局朝向，水平(vertical 垂直)
+        orient='horizontal',
+        # 图例形状
+        legend_icon='circle'
+    ),
+
+    # 工具箱设置
+    toolbox_opts=opts.ToolboxOpts(
+        # 是否显示工具栏组件
+        is_show=True,
+        # 布局朝向('vertical')
+        orient='vertical',
+        # 离上边距的距离
+        pos_top='10%',
+        # 离左边距的距离
+        pos_left='91%',
+
+        # 配置各个工具箱
+        feature=opts.ToolBoxFeatureOpts(
+
+            # 保存工具
+            opts.ToolBoxFeatureSaveAsImageOpts(
+                # 是否显示
+                is_show=True,
+                # 提示语
+                title="save",
+            ),
+
+            # 还原工具
+            opts.ToolBoxFeatureRestoreOpts(
+                # 是否显示该工具
+                is_show=True,
+                # 提示语
+                title="undo",
+            ),
+
+            # 数据视图工具
+            opts.ToolBoxFeatureDataViewOpts(
+                # 是否显示该工具
+                is_show=True,
+                # 提示语
+                title="data",
+                # 是否不可编辑
+                is_read_only=False,
+            ),
+
+            # 缩放工具配置项，直角坐标系适用
+            opts.ToolBoxFeatureDataZoomOpts(
+                # 是否显示该工具。
+                is_show=True,
+                # 提示语
+                zoom_title="zoom",
+                # 提示语
+                back_title="undo",
+            ),
+
+            # 图表类型切换，适用于直角坐标系
+            opts.ToolBoxFeatureMagicTypeOpts(
+                # 是否显示该工具
+                is_show=True,
+                # 启用的动态类型('stack','line','bar','tiled')
+                type_=['stack', 'line', 'bar', 'tiled'],
+                # 折线标题文本
+                # line_title="折线图",
+                # 柱状标题文本
+                bar_title="barplot",
+                # 堆积标题文本
+                stack_title="stack",
+                # 平铺标题文
+                tiled_title="tiled",
+            ),
+
+            # 工具箱选框组件配置项
+            opts.ToolBoxFeatureBrushOpts(
+                # 选择显示哪些选框
+                type_=[]
+            ),
+        )
+    ),
+)
+bars.render('QAV.html')
 
 
-final.plot_animated(filename='./perpendicular-example.gif',perpendicular_bar_func='mean')
+#final.plot_animated(filename='./perpendicular-example.gif',perpendicular_bar_func='mean')
