@@ -60,6 +60,7 @@ for h in dflist:
       h.loc[10, 'Montant'] = 838426
       h.loc[11, 'Montant'] = 324700
       h.loc[12, 'Montant'] = 224389
+
 #print(dflist[0].columns)
   # print(h.columns)
   final = pd.concat([final,h[['year','type','Montant']]])
